@@ -1,24 +1,9 @@
-# Dropbox AI Chat
+# Chat-Bot
+About Project: We know that the Holy Book "Bhagavad Geeta" has solution to every problem of our life. I made a AI Chat-Bot who reply the solutions to our given problem/prompt according to the Bhagavad Geeta Book.
+Working: I had uploaded the "Bhagavad Geeta as it is" book in my dropbox folder and gave this path in my .env folder. I used docker and openai API key for this chatbot.
 
-Quickly summarize the content and get the information you need in **real-time** from private large unstructured documents in your [Dropbox](https://dropbox.com/). The same tool can be used with [OneDrive](https://onedrive.live.com/login/).
 
-## Demo
 
-See how the tool works:
-
-![Dropbox AI search tool demo](assets/dropbox-ai-search-tool.gif)
-
-As you can see the LLM App enables AI-powered search from multiple unstructured documents like tax information from different countries, and indexes input data in real-time just after you upload files to the cloud storage.
-
-## How to run the tool
-
-There are 3 ways to run the app:
-
-### Run with Conda
-
-For a step-by-step walkthrough in real time (~7 mins) check out the video below:
-
-[![Thumbnail of YouTube walkthrough](assets/yt-thumbnail.png)](https://youtu.be/PbSAYHi5gnM?si=GAi3hYFTiJMO0EQH)
 
 ### Run with Docker
 
@@ -38,29 +23,6 @@ DROPBOX_LOCAL_FOLDER_PATH={REPLACE_WITH_DROPBOX_RELATIVE_PATH}
 3. Navigate to `localhost:8501` on your browser when docker installion is successful.
 
 ### Run from the source
-
-#### Prerequisites
-
-1. Make sure that [Python](https://www.python.org/downloads/) 3.10 or above installed on your machine.
-2. Download and Install [Pip](https://pip.pypa.io/en/stable/installation/) to manage project packages.
-3. Create an [OpenAI](https://openai.com/) account and generate a new API Key: To access the OpenAI API, you will need to create an API Key. You can do this by logging into the [OpenAI website](https://openai.com/product) and navigating to the API Key management page.
-4. Use your Dropbox/OneDrive account.
-
-Then, follow the easy steps to install and get started using the sample app.
-
-#### Step 1: Clone the repository
-
-This is done with the `git clone` command followed by the URL of the repository:
-
-```bash
-git clone https://github.com/pathway-labs/dropbox-ai-chat
-```
-
-Next,  navigate to the project folder:
-
-```bash
-cd dropbox-ai-chat
-```
 
 #### Step 2: Set environment variables
 
