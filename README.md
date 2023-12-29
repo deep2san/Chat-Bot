@@ -1,5 +1,7 @@
 # Chat-Bot
 About Project: We know that the Holy Book "Bhagavad Geeta" has solution to every problem of our life. I made a AI Chat-Bot who reply the solutions to our given problem/prompt according to the Bhagavad Geeta Book.
+![Screenshot (249)](https://github.com/deep2san/Chat-Bot/assets/74764700/17c5a775-ea7f-4b77-b8e8-07e51bf1d243)
+
 
 Working: I had uploaded the "Bhagavad Geeta as it is" book in my dropbox folder and gave this path in my .env folder. I used docker and openai API key for this chatbot.
 
